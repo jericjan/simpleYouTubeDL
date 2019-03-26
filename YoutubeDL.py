@@ -11,6 +11,7 @@ win.resizable(False, False)
 def copy():
     temp = OneUrl.get()
     #print("youtube-dl.exe", "-F", temp)
+    subprocess.call('color 0a', shell=True)
     subprocess.call(["youtube-dl.exe", "-F", temp])
 
 def number():
