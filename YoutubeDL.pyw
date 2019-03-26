@@ -13,6 +13,7 @@ win.geometry("350x160")
 
 def copy():
     win2 = Toplevel(win)
+    win2.title("List of format codes")
     win2.geometry("519x538")
     temp = OneUrl.get()
     # print("youtube-dl.exe", "-F", temp)
