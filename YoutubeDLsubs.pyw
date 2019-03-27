@@ -6,7 +6,7 @@ import tkinter.scrolledtext as tkst
 win = Tk()
 
 win.title("YT DL w/ subs by Jeric")
-win.geometry("350x250")
+win.geometry("360x250")
 win.resizable(False, False)
 
 
